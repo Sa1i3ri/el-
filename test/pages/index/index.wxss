@@ -1,0 +1,27 @@
+/**index.wxss**/
+page{
+  height:100%                       
+}
+.play-btn{
+  display:flex;
+                  
+  justify-content: center;
+  align-items:center;
+  
+  width:800rpx;
+  height:600rpx;
+
+}
+
+.header{
+  height: 0rpx;
+}
+
+.picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 16px;
+  color: #666;
+}

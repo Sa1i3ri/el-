@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class='time'>
+  <text>{{date}}</text>
+  </view>
+
+  <view class="count">
+    <text>计数：{{count}}</text>
+  </view>
+  <view class="header">电子木鱼</view>
+
+  <audio src="{{src}}" id="audio" loop="{{loop}}" bindplay="play" bindpause="pause"></audio>
+
+  <button class="play-btn" bindtap="togglePlay">
+    <image class="muyu_img" src="../images/muyu.jpg"></image>
+  </button>
+
+  <view>
+  <picker mode="date" bindchange="onDateChange">
+    <view class="picker">
+      按这里
+    </view>
+  </picker>
+</view>
+
+</view>
+
